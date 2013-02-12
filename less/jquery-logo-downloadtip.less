@@ -1,15 +1,27 @@
 #logo-downloadtip {
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    display: none;
-    padding: 1px;
-    position: absolute;
-    min-width: 160px;
-    -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-    -moz-border-radius: 6px;
-    -webkit-border-radius: 6px;
-    border-radius: 6px;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	display: none;
+	padding: 1px;
+	text-align: left;
+	white-space: normal;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1010;
+
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+
+	-webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+
+	-webkit-background-clip: padding-box;
+	-moz-background-clip: padding;
+	background-clip: padding-box;
 
 	h3 {
 		background: #f7f7f7;
@@ -19,6 +31,10 @@
 		line-height: 18px;
 		margin: 0;
 		padding: 8px 14px;
+
+		-webkit-border-radius: 5px 5px 0 0;
+		-moz-border-radius: 5px 5px 0 0;
+		border-radius: 5px 5px 0 0;
 	}
 
 	a { color: #555; display: block; text-decoration: none; }
@@ -30,6 +46,10 @@
 	    font-size: 13px;
 	    line-height: 20px;
 	    padding: 9px 14px;
+
+		-webkit-border-radius: 0 0 5px 5px;
+		-moz-border-radius: 0 0 5px 5px;
+		border-radius: 0 0 5px 5px;
 	}
 	// Arrow //
 	.arrow,
@@ -67,11 +87,11 @@
 	}
 	&.bottom {
 		.arrow {
-			top: -10px;
+			top: -11px;
 			left: 50%;
 			margin-left: -11px;
 			border-bottom-color: #f7f7f7;
-			border-bottom-color: rgba(0, 0, 0, 0.25);
+			border-bottom-color: rgba(0, 0, 0, 0.2);
 			border-top-width: 0;
 		}
 		.arrow:after {
