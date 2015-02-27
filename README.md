@@ -5,7 +5,7 @@ http://demo.jarnesjo.net/jquery-logo-downloadtip/
 
 ## Description
 Simple plugin to allow users to download multiple logotype image types when they trying to grab low resolution logo.
-Initiative after seen http://relogo.org/
+Initiative after seen http://relogo.org/, but the [microformats](http://microformats.org/wiki/rel-logo) rejected.
 
 #### Declaim
 Tip-css structure from Twitter Bootstrap (http://twitter.github.com/bootstrap/)
