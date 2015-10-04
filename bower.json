@@ -1,0 +1,40 @@
+{
+  "name": "jquery-logo-downloadtip",
+  "homepage": "https://github.com/tiagoporto/jquery-logo-downloadtip",
+  "authors": [
+    {
+      "name": "Nicklas Jarnesjö",
+      "homepage": "http://www.jarnesjo.net/"
+    },
+    {
+      "name": "Tiago Porto",
+      "email": "tiago@tiagoporto.com",
+      "homepage": "http://tiagoporto.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tiagoporto/jquery-logo-downloadtip.git"
+  },
+  "main": [
+    "js/jquery-logo-downloadtip.min.js",
+    "css/jquery-logo-downloadtip.css"
+  ],
+  "ignore": [
+    "**/*",
+    "!img/**/*",
+    "!less/**/*",
+    "!css/main.css",
+    "!css/normalize.css",
+    "!index.html"
+  ],
+  "keywords": [
+    "logo",
+    "downloadtip",
+    ""
+  ],
+  "dependencies": {
+    "jquery": ">=1.9.1"
+  },
+  "license": "MIT"
+}

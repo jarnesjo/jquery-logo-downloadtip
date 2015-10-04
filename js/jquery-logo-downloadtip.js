@@ -1,10 +1,11 @@
-/**
- * jQuery Logo Downloadtip v.0.2
- * (c) 2013
- * WebReady Sweden AB, http://www.webready.se
- * Nicklas Jarnesjö, http://www.jarnesjo.net
- *
- */
+/*!
+*	jQuery Logo Downloadtip v2.0.0
+*	Project Home page
+*	Copyright (c) 2013-2015
+*	Nicklas Jarnesjö (http://www.jarnesjo.net)
+*	Tiago Porto (http://www.tiagoporto.com)
+*	Released under the MIT license
+*/
 
 (function() {
 
@@ -27,7 +28,7 @@
                     content = $("<div/>", { "class": "content" }),
                     arrow = $("<div/>", { "class": "arrow" });
                 // Get the logos
-                $("link[data-title]").each(function(){
+                $("link[type*=image]").each(function(){
                     var title = $(this).data("title"),
                         href = $(this).attr("href"),
                         logo = $("<a/>", { "text": title, "href": href });

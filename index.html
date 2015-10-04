@@ -5,13 +5,12 @@
 <!--[if gt IE 8]><!--><html class="no-js"> <!--<![endif]-->
     <head>
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>Downloadtip for Logo</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
 
-        <link rel="logo" type="image/svg" href="gfx/webready_sweden_logo.svg" data-title="Vector file (.svg)" />
-        <link rel="logo" type="image/png" href="gfx/webready_sweden_logo600.png" data-title="Bitmap file (.png)" />
+        <link rel="icon" type="image/svg" href="img/webready_sweden_logo.svg" data-title="Vector file (.svg)" />
+        <link rel="icon" type="image/png" href="img/webready_sweden_logo600.png" data-title="Bitmap file (.png)" />
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
@@ -24,7 +23,7 @@
         <![endif]-->
 
         <div class="container">
-            <img id="logo" src="gfx/webready_sweden_logo.png" alt="Logo" />
+            <img id="logo" src="img/webready_sweden_logo.png" alt="Logo" />
             <nav class="clearfix">
                 <ul id="head-menu">
                     <li><a href="#">Start</a></li>
@@ -41,14 +40,15 @@
                     Right-click the logo to see the example.
                 </p>
                 <p>
-                    The plugin checks for "&lt;link&gt;" tags in the header with "data-title" attribute and then creates links so the user in a easy way can download and high resolution vector logo for example.
+                    The plugin checks for "&lt;link&gt;" tags in the header with "type=image/extension" attribute and then creates links, so the user in a easy way can download the high resolution vector logo for example.
                 </p>
             </div>
         </div>
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/jquery-1.9.1.min.js"><\/script>')</script>
-        <script src="js/jquery-logo-downloadtip.js"></script>
+        <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="bower_components/jquery/dist/jquery.js"><\/script>')</script>-->
+        <script src="bower_components/jquery/dist/jquery.js"></script>
+        <script src="js/jquery-logo-downloadtip.min.js"></script>
 
         <script>
             $(document).ready(function(){
