@@ -19,7 +19,7 @@
         base.init = function() {
             base.options = $.extend({}, $.downloadTip.defaultOptions, options);
 
-            base.$element.bind("contextmenu", function(e){
+            base.$element.on("contextmenu", function(e){
                 if($("#logo-downloadtip").length != 0) { return false; }
 
                 var container = $("<div/>", { "id": "logo-downloadtip", "class": base.options.position }),
