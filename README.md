@@ -15,6 +15,9 @@ Tip-css structure from Twitter Bootstrap (http://twitter.github.com/bootstrap/)
 
 ## Changelog:
 
+### v.0.1.2: March 11th, 2026
+* Upgraded jQuery from 1.9.1 to 3.7.1 to fix security vulnerabilities
+
 ### v.0.1.1: February 12th, 2013
 * Fixed some #logo-downloadtip css and make it more smooth and solid
 
